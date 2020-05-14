@@ -1,0 +1,15 @@
+﻿{
+  "Query": {
+    "Text": "{ foo }"
+  },
+  "QueryName": null,
+  "QueryHash": null,
+  "OperationName": null,
+  "VariableValues": {},
+  "InitialValue": null,
+  "Properties": {
+    "one": "bar"
+  },
+  "Services": null,
+  "Extensions": {}
+}

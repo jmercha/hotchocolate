@@ -1,0 +1,10 @@
+﻿{
+  "QueryTypeName": "Query",
+  "MutationTypeName": "Mutation",
+  "SubscriptionTypeName": "Subscription",
+  "StrictValidation": true,
+  "UseXmlDocumentation": true,
+  "RemoveUnreachableTypes": false,
+  "DefaultBindingBehavior": "Implicit",
+  "FieldMiddleware": "UserDefinedFields"
+}

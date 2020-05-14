@@ -1,0 +1,26 @@
+﻿[
+  {
+    "Data": {
+      "onSomethingObj": "a"
+    },
+    "Errors": null,
+    "Extensions": null,
+    "ContextData": null
+  },
+  {
+    "Data": {
+      "onSomethingObj": "b"
+    },
+    "Errors": null,
+    "Extensions": null,
+    "ContextData": null
+  },
+  {
+    "Data": {
+      "onSomethingObj": "c"
+    },
+    "Errors": null,
+    "Extensions": null,
+    "ContextData": null
+  }
+]

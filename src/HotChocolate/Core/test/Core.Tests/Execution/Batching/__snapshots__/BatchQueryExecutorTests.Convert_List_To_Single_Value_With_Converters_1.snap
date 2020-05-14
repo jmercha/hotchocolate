@@ -1,0 +1,11 @@
+﻿{
+  "Data": {
+    "foo": [
+      "123",
+      "789"
+    ]
+  },
+  "Errors": null,
+  "Extensions": null,
+  "ContextData": null
+}

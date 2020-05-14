@@ -1,9 +1,0 @@
-﻿{
-  "Data": {
-    "__typename": "Query",
-    "a": "A"
-  },
-  "Extensions": {},
-  "Errors": [],
-  "ContextData": {}
-}

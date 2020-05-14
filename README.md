@@ -1,13 +1,13 @@
-![HotChocolate](https://cdn.rawgit.com/ChilliCream/hotchocolate-logo/acacc5b353f4a21bc03591d9910232c3c748d552/img/hotchocolate-banner-light.svg)
+![HotChocolate](https://chillicream.com/img/projects/hotchocolate-banner.svg)
 
-[![GitHub release](https://img.shields.io/github/release/chillicream/HotChocolate.svg)](https://github.com/ChilliCream/hotchocolate/releases) [![NuGet Package](https://img.shields.io/nuget/v/hotchocolate.svg)](https://www.nuget.org/packages/HotChocolate/) [![License](https://img.shields.io/github/license/ChilliCream/hotchocolate.svg)](https://github.com/ChilliCream/hotchocolate/releases) [![AppVeyor](https://ci.appveyor.com/api/projects/status/uf8xnbyo32bh7ge1/branch/master?svg=true)](https://ci.appveyor.com/project/rstaib/zeus) [![Tests](https://img.shields.io/appveyor/tests/rstaib/zeus/master.svg)](https://ci.appveyor.com/project/rstaib/zeus) [![Coverage Status](https://sonarcloud.io/api/project_badges/measure?project=HotChocolate&metric=coverage)](https://sonarcloud.io/dashboard?id=HotChocolate) [![Quality](https://sonarcloud.io/api/project_badges/measure?project=HotChocolate&metric=alert_status)](https://sonarcloud.io/dashboard?id=HotChocolate)
-[![Slack channel](https://img.shields.io/badge/join%20the%20community-on%20slack-blue.svg)](https://join.slack.com/t/hotchocolategraphql/shared_invite/enQtNTA4NjA0ODYwOTQ0LTBkZjNjZWIzMmNlZjQ5MDQyNDNjMmY3NzYzZjgyYTVmZDU2YjVmNDlhNjNlNTk2ZWRiYzIxMTkwYzA4ODA5Yzg) [![Twitter](https://img.shields.io/badge/join%20us-on%20twitter-green.svg)](https://twitter.com/chilli_cream)
+[![Financial Contributors on Open Collective](https://opencollective.com/chillicream/all/badge.svg?label=financial+contributors)](https://opencollective.com/chillicream) [![GitHub release](https://img.shields.io/github/release/chillicream/HotChocolate.svg)](https://github.com/ChilliCream/hotchocolate/releases) [![NuGet Package](https://img.shields.io/nuget/v/hotchocolate.svg)](https://www.nuget.org/packages/HotChocolate/) [![License](https://img.shields.io/github/license/ChilliCream/hotchocolate.svg)](https://github.com/ChilliCream/hotchocolate/releases) [![Azure DevOps builds](https://img.shields.io/azure-devops/build/chillicream/414ff59c-4852-4687-b04d-6973125e7de2/48.svg)](https://chillicream.visualstudio.com/HotChocolate/_build?definitionId=48) [![Azure DevOps tests](https://img.shields.io/azure-devops/tests/chillicream/HotChocolate/48.svg)](https://chillicream.visualstudio.com/HotChocolate/_build?definitionId=48) [![Coverage Status](https://sonarcloud.io/api/project_badges/measure?project=HotChocolate&metric=coverage)](https://sonarcloud.io/dashboard?id=HotChocolate) [![Quality](https://sonarcloud.io/api/project_badges/measure?project=HotChocolate&metric=alert_status)](https://sonarcloud.io/dashboard?id=HotChocolate)
+[![Slack channel](https://img.shields.io/badge/join%20the%20community-on%20slack-blue.svg)](https://join.slack.com/t/hotchocolategraphql/shared_invite/enQtNTA4NjA0ODYwOTQ0LTViMzA2MTM4OWYwYjIxYzViYmM0YmZhYjdiNzBjOTg2ZmU1YmMwNDZiYjUyZWZlMzNiMTk1OWUxNWZhMzQwY2Q) [![Twitter](https://img.shields.io/badge/join%20us-on%20twitter-green.svg)](https://twitter.com/chilli_cream)
 
 ---
 
 **Hot Chocolate is a GraphQL server for _.NET Core_ and _.NET Classic_**
 
-_Hot Chocolate_ is a GraphQL server implementation based on the current GraphQL [June 2018 specification](http://facebook.github.io/graphql/June2018/).
+_Hot Chocolate_ is a GraphQL server implementation based on the current GraphQL [June 2018 specification](https://graphql.github.io/graphql-spec/June2018/).
 
 ## Getting Started
 
@@ -23,9 +23,9 @@ dotnet new -i HotChocolate.Templates.StarWars
 dotnet new starwars
 ```
 
-The GraphQL specification and more is available on the [Facebook GraphQL repository](https://github.com/facebook/graphql).
+The GraphQL specification and more is available on the [Facebook GraphQL repository](https://github.com/graphql/graphql-spec).
 
-If you want to get in touch with us you can do so by joining our [slack group](https://join.slack.com/t/hotchocolategraphql/shared_invite/enQtNTA4NjA0ODYwOTQ0LTBkZjNjZWIzMmNlZjQ5MDQyNDNjMmY3NzYzZjgyYTVmZDU2YjVmNDlhNjNlNTk2ZWRiYzIxMTkwYzA4ODA5Yzg).
+If you want to get in touch with us you can do so by joining our [slack group](https://join.slack.com/t/hotchocolategraphql/shared_invite/enQtNTA4NjA0ODYwOTQ0LTViMzA2MTM4OWYwYjIxYzViYmM0YmZhYjdiNzBjOTg2ZmU1YmMwNDZiYjUyZWZlMzNiMTk1OWUxNWZhMzQwY2Q).
 
 > This readme only provides a simple quickstart, in order to learn more about advanced features like schema stitching head over to our [documentation](http://hotchocolate.io).
 
@@ -51,9 +51,13 @@ Now add the query engine package to your project with the following command.
 dotnet add package HotChocolate
 ```
 
-The GraphQL schema describes the capabilities of a GraphQL API. _Hot Chocolate_ allows you to do that code-first by defining .net classes describing that schema or schema-first by defining the schema in the GraphQL syntax and binding resolvers to it. Our README walkthrough shows you the code-first approach.
+The GraphQL schema describes the capabilities of a GraphQL API. _Hot Chocolate_ allows you to do that code-first by defining .net classes describing that schema or schema-first by defining the schema in the GraphQL syntax and binding resolvers to it. Our README walk through shows you the code-first approach.
 
 The following example shows the code-first approach.
+
+> Make sure to add the following usings to your code in order to get access to the extension methods used in the examples:
+> using HotChocolate;
+> using HotChocolate.Execution;
 
 ```csharp
 public class Program
@@ -103,7 +107,7 @@ Now that the schema is setup and executable we can serve up a query against it.
 // {
 //   data: { hello: "world" }
 // }
-Console.WriteLine(executor.Execute("{ hello }"));
+Console.WriteLine(executor.Execute("{ hello }").ToJson());
 ```
 
 This runs a query fetching the one field defined. The graphql function will first ensure the query is syntactically and semantically valid before executing it, reporting errors otherwise.
@@ -123,10 +127,10 @@ This runs a query fetching the one field defined. The graphql function will firs
 //     }
 //   ]
 // }
-Console.WriteLine(executor.Execute("{ foo }"));
+Console.WriteLine(executor.Execute("{ foo }").ToJson());
 ```
 
-In order to set up a GraphQL HTTP endpoint, Hot Chocolate comes with an ASP.net core middleware.
+In order to set up a GraphQL HTTP endpoint, Hot Chocolate comes with an ASP .Net core middleware.
 
 Create a new project with the web template that comes with your dotnet CLI.
 
@@ -146,9 +150,9 @@ Open the Startup.cs and add the following code.
 protected override void ConfigureServices(IServiceCollection services)
 {
     services.AddGraphQL(sp => SchemaBuilder.New()
-      .AddQueryType<Query>()
-      .AddServices(sp)
-      .Create());
+        .AddQueryType<Query>()
+        .AddServices(sp)
+        .Create());
 }
 ```
 
@@ -165,7 +169,7 @@ protected override void Configure(IApplicationBuilder app, IHostingEnvironment e
 }
 ```
 
-This will set up all the necessary endpoints to query the GraphQL schema via HTTP GET or HTTP POST. In order to run a query against your schema, start your web host and get [GraphiQL](https://github.com/graphql/graphiql).
+This will set up all the necessary endpoints to query the GraphQL schema via HTTP GET or HTTP POST. In order to run a query against your schema, start your web host and get [Banana Cake Pop](https://hotchocolate.io/docs/banana-cakepop).
 
 By default, the middleware will be configured to listen on the service root for GraphQL requests. If you want to use a different endpoint route you can pass the desired route into the UseGraphQL instruction.
 
@@ -204,14 +208,38 @@ dotnet new graphql
 
 We have moved the roadmap into the [ROADMAP.md](ROADMAP.md)
 
-## GraphQL Compatibility Acceptance Tests
-
-We are now investing to implement the GraphQL Compatibility Acceptance Tests for Hot Chocolate. We should have the first test running with Version 0.8.0 and should have this finished until Version 0.11.0.
-
-More about GraphQL compatibility acceptance tests can be read [here](https://github.com/graphql-cats/graphql-cats).
-
 ## Documentation
 
 For more examples and detailed documentation, click [here](http://hotchocolate.io).
 
-For documentation about our _DataLoader_ implementation click [here](https://github.com/ChilliCream/greendonut).
+For documentation about our _DataLoader_ implementation click [here](https://github.com/ChilliCream/hotchocolate/tree/master/src/DataLoader).
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/ChilliCream/hotchocolate/graphs/contributors"><img src="https://opencollective.com/chillicream/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/chillicream/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/chillicream"><img src="https://opencollective.com/chillicream/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/chillicream/contribute)]
+
+<a href="https://opencollective.com/chillicream/organization/0/website"><img src="https://opencollective.com/chillicream/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/chillicream/organization/1/website"><img src="https://opencollective.com/chillicream/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/chillicream/organization/2/website"><img src="https://opencollective.com/chillicream/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/chillicream/organization/3/website"><img src="https://opencollective.com/chillicream/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/chillicream/organization/4/website"><img src="https://opencollective.com/chillicream/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/chillicream/organization/5/website"><img src="https://opencollective.com/chillicream/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/chillicream/organization/6/website"><img src="https://opencollective.com/chillicream/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/chillicream/organization/7/website"><img src="https://opencollective.com/chillicream/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/chillicream/organization/8/website"><img src="https://opencollective.com/chillicream/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/chillicream/organization/9/website"><img src="https://opencollective.com/chillicream/organization/9/avatar.svg"></a>
